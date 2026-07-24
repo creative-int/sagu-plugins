@@ -1,0 +1,16 @@
+{
+	"$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+	"name": "io.github.creative-int/sagu",
+	"description": "Connect agents to Sagu radars, pings, and artifacts over remote MCP.",
+	"version": "0.1.0",
+	"repository": {
+		"url": "https://github.com/creative-int/sagu-plugins",
+		"source": "github"
+	},
+	"remotes": [
+		{
+			"type": "streamable-http",
+			"url": "https://sagu-mcp.luke-nittmann.workers.dev/mcp"
+		}
+	]
+}

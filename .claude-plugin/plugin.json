@@ -1,0 +1,26 @@
+{
+	"name": "sagu",
+	"version": "0.1.0",
+	"description": "Connect agents to Sagu radars, pings, and artifacts over remote MCP.",
+	"author": {
+		"name": "creative-int",
+		"email": "support@sagu.app"
+	},
+	"homepage": "https://sagu.app",
+	"repository": "https://github.com/creative-int/sagu-plugins.git",
+	"license": "MIT",
+	"keywords": [
+		"sagu",
+		"mcp",
+		"agent-skills",
+		"monitoring",
+		"intelligence",
+		"radars",
+		"pings",
+		"artifacts",
+		"context-packets"
+	],
+	"displayName": "Sagu",
+	"skills": "./skills",
+	"mcpServers": "./.mcp.json"
+}

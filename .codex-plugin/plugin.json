@@ -1,0 +1,33 @@
+{
+	"name": "sagu",
+	"version": "0.1.0",
+	"description": "Connect agents to Sagu radars, pings, and artifacts over remote MCP.",
+	"author": {
+		"name": "creative-int",
+		"email": "support@sagu.app"
+	},
+	"homepage": "https://sagu.app",
+	"repository": "https://github.com/creative-int/sagu-plugins.git",
+	"license": "MIT",
+	"keywords": [
+		"sagu",
+		"mcp",
+		"agent-skills",
+		"monitoring",
+		"intelligence",
+		"radars",
+		"pings",
+		"artifacts",
+		"context-packets"
+	],
+	"skills": "./skills",
+	"mcpServers": "./.mcp.json",
+	"interface": {
+		"displayName": "Sagu",
+		"shortDescription": "Connect agents to Sagu radars, pings, and artifacts over remote MCP.",
+		"longDescription": "Sagu is an AI-powered monitoring platform. This plugin exposes Sagu's dispatch and artifact tools to any MCP-aware agent: list and search radars, read pings, export agent-ready context packets, refresh intelligence on demand, and create or fetch platform artifacts. The remote MCP endpoint uses OAuth/Bearer auth; a local stdio server is also available via the `@sagu/mcp` package.",
+		"developerName": "creative-int",
+		"category": "Productivity",
+		"logo": "./assets/logo.png"
+	}
+}

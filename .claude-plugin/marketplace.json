@@ -1,0 +1,15 @@
+{
+	"name": "sagu",
+	"owner": {
+		"name": "creative-int",
+		"email": "support@sagu.app"
+	},
+	"plugins": [
+		{
+			"name": "sagu",
+			"displayName": "Sagu",
+			"source": "./",
+			"description": "Connect agents to Sagu radars, pings, and artifacts over remote MCP."
+		}
+	]
+}
