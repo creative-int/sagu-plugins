@@ -1,7 +1,7 @@
 {
 	"mcpServers": {
 		"sagu": {
-			"url": "https://sagu-mcp.luke-nittmann.workers.dev/mcp"
+			"url": "https://radar-mcp.luke-nittmann.workers.dev/"
 		}
 	}
 }
