@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://sagu.app">sagu.app</a> ·
-  MCP: <code>https://sagu-mcp.luke-nittmann.workers.dev/mcp</code>
+  MCP: <code>https://radar-mcp.luke-nittmann.workers.dev/</code>
 </p>
 
 ---
@@ -64,7 +64,7 @@ Point your client at the remote Sagu MCP server.
 {
 	"mcpServers": {
 		"sagu": {
-			"url": "https://sagu-mcp.luke-nittmann.workers.dev/mcp"
+			"url": "https://radar-mcp.luke-nittmann.workers.dev/"
 		}
 	}
 }

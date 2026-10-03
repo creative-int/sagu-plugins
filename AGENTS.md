@@ -35,7 +35,7 @@ needs a manifest, add the manifest builder to the `files` map. Regenerate.
 The MCP tool surface is hosted by the Sagu MCP server:
 
 - `packages/mcp` — local stdio server (`npx -y @sagu/mcp`, `RADAR_API_KEY`).
-- `apps/mcp` — remote Streamable HTTP server (`https://sagu-mcp.luke-nittmann.workers.dev/mcp`).
+- `apps/mcp` — remote Streamable HTTP server (`https://radar-mcp.luke-nittmann.workers.dev/`).
 
 Keep the agent-facing tool surface lean so it does not bloat context.
 

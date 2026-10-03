@@ -84,8 +84,9 @@ export const sagu: SaguConfig = {
   logo: "./assets/logo.png",
   mcp: {
     id: "sagu",
-    // TODO: switch to https://mcp.sagu.app/mcp once the custom domain is routed.
-    url: "https://sagu-mcp.luke-nittmann.workers.dev/mcp",
+    // The deployed Worker is still named radar-mcp and serves MCP at POST /.
+    // TODO: switch to https://mcp.sagu.app/mcp once the sagu.app zone is routed.
+    url: "https://radar-mcp.luke-nittmann.workers.dev/",
     transport: "streamable-http",
     stdioPackage: "npx -y @sagu/mcp",
   },

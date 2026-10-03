@@ -17,7 +17,7 @@ Sagu can turn radars, pings, and intelligence into **platform artifacts**:
 shareable pages with HTML, text, JSON payloads, and metadata. This skill teaches
 agents how to create, read, and dispatch artifacts through MCP.
 
-Connect to the Sagu MCP server at `https://sagu-mcp.luke-nittmann.workers.dev/mcp`,
+Connect to the Sagu MCP server at `https://radar-mcp.luke-nittmann.workers.dev/`,
 or run the local stdio server with `npx -y @sagu/mcp` and a `RADAR_API_KEY`.
 
 ## Use when
